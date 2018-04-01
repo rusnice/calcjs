@@ -10,6 +10,26 @@ $active : #efae02
 		bottom: 0
 		left: 0
 
+.fade
+	animation-name: fade
+	animation-duration: 3.5s
+
+@keyframes fade
+	from
+		opacity: .1
+	to
+		opacity: 1
+
+.blink
+	animation-name: blink
+	animation-duration: 1s
+
+@keyframes blink
+	from
+		border-color: rgba(256, 256, 256, .8)
+	to
+		border-color: rgba(239, 174,2, 1)
+
 *
 	box-sizing: border-box
 	outline: none

@@ -1,3 +1,39 @@
+.fade {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-duration: 3.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .1; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .1; }
+  to {
+    opacity: 1; } }
+
+.blink {
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s; }
+
+@-webkit-keyframes blink {
+  from {
+    border-color: rgba(255, 255, 255, 0.8); }
+  to {
+    border-color: #efae02; } }
+
+@keyframes blink {
+  from {
+    border-color: rgba(255, 255, 255, 0.8); }
+  to {
+    border-color: #efae02; } }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
